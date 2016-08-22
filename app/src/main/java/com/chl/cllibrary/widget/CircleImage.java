@@ -85,6 +85,7 @@ public class CircleImage extends ImageView {
         drawable.setBounds(0, 0, w, h);
         drawable.draw(canvas);
         return bitmap;
+
     }
 
     private Bitmap drawableToBitmap3(Drawable drawable) {
